@@ -1,0 +1,66 @@
+{
+  "version": 1,
+  "known_hashes": [
+    {
+      "sha256": "275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f",
+      "description": "EICAR Standard Antivirus Test Pattern (SHA-256)",
+      "score": 100
+    }
+  ],
+  "patterns": [
+    {
+      "name": "EICAR Standard Signature",
+      "pattern_b64": "RUlDQVItU1RBTkRBUkQtQU5USVZJUlVTLVRFU1QtRklMRQ==",
+      "weight": 100,
+      "is_ascii": true
+    },
+    {
+      "name": "Invoke-Mimikatz Script Reference",
+      "pattern_b64": "SW52b2tlLU1pbWlrYXR6",
+      "weight": 90,
+      "is_ascii": true
+    },
+    {
+      "name": "Sekurlsa LogonPasswords Command",
+      "pattern_b64": "c2VrdXJsc2E6OmxvZ29ucGFzc3dvcmRz",
+      "weight": 90,
+      "is_ascii": true
+    },
+    {
+      "name": "Ransomware Shadow Copy Deletion (vssadmin)",
+      "pattern_b64": "dnNzYWRtaW4gZGVsZXRlIHNoYWRvd3M=",
+      "weight": 95,
+      "is_ascii": true
+    },
+    {
+      "name": "Ransomware Shadow Copy Deletion (wmic)",
+      "pattern_b64": "d21pYyBzaGFkb3djb3B5IGRlbGV0ZQ==",
+      "weight": 95,
+      "is_ascii": true
+    },
+    {
+      "name": "Ransomware Recovery Disabling (bcdedit)",
+      "pattern_b64": "YmNkZWRpdCAvc2V0IHtkZWZhdWx0fSByZWNvdmVyeWVuYWJsZWQgbm8=",
+      "weight": 95,
+      "is_ascii": true
+    },
+    {
+      "name": "Encoded PowerShell Invocation",
+      "pattern_b64": "cG93ZXJzaGVsbCAtZW5j",
+      "weight": 55,
+      "is_ascii": true
+    },
+    {
+      "name": "Base64 Binary Payload Decoder",
+      "pattern_b64": "RnJvbUJhc2U2NFN0cmluZw==",
+      "weight": 55,
+      "is_ascii": true
+    },
+    {
+      "name": "x64 Raw Shellcode PEB Access Stub",
+      "pattern_b64": "ZUiLBCVgAAAA",
+      "weight": 75,
+      "is_ascii": false
+    }
+  ]
+}
